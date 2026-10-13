@@ -1,0 +1,4 @@
+# Lab 5: Optimizers: SGD, Mini-batches, Momentum, RMSProp and Adam
+
+## Description
+This lab focuses on optimizing neural network training. It replaces slow numerical gradients with true backpropagation implemented from scratch. It also includes the construction and comparison of several standard optimization algorithms—plain Stochastic Gradient Descent (SGD), Mini-batch SGD, Momentum, RMSProp, and Adam. These optimizers are tested in a race against a complex spiral dataset to evaluate their ability to overcome issues like zig-zagging across loss surfaces and to compare their overall training speed, stability, and accuracy.
