@@ -1,0 +1,4 @@
+# Lab 6: Regularization: Closing the Gap
+
+## Description
+This lab explores techniques to prevent neural networks from overfitting and memorizing training data. It includes from-scratch implementations of L1 and L2 weight regularization penalties (integrated into both the loss calculation and the gradients) and Dropout layers (using inverted dropout). Additionally, it demonstrates the critical importance of proper weight initialization (such as He initialization) to prevent vanishing or exploding gradients, and introduces the forward pass mechanics of Batch Normalization. The lab concludes by racing these regularization methods against a baseline model to observe how they successfully shrink the generalization gap between training and validation accuracy.
