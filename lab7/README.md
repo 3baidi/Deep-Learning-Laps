@@ -1,0 +1,4 @@
+# Lab 7: TensorFlow and Keras
+
+## Description
+This lab transitions from building neural networks from scratch in NumPy to using industry-standard deep learning frameworks. It translates all previously hand-written components—Dense layers, ReLU, Softmax, cross-entropy loss, backpropagation, and Adam optimization—into their equivalent, highly optimized Keras implementations. The lab also applies advanced techniques using Keras built-ins, including L2 regularization, Dropout, Batch Normalization, and Early Stopping callbacks to prevent overfitting. Finally, it explores optimizing training loops with `tf.data` pipelines and demonstrates how to save and reload compiled models.
