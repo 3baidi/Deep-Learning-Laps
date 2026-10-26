@@ -1,0 +1,4 @@
+# Lab 8: PyTorch and Custom Training Loops
+
+## Description
+This lab introduces PyTorch, focusing on the mechanics of building and managing custom training loops from scratch. It explores PyTorch's `autograd` engine for automatic differentiation (verifying it against numerical gradients) and builds neural networks using `nn.Module`. The lab covers essential training procedures, including managing training versus evaluation states (`model.train()` and `model.eval()`), optimizing inference with `torch.no_grad()`, and handling batching efficiently using `DataLoader` and `TensorDataset`. Finally, it implements regularization by integrating Dropout layers and applying L2 weight decay directly through the PyTorch Adam optimizer.
