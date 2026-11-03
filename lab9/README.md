@@ -1,0 +1,4 @@
+# Lab 9: Autoencoders and Representation Learning
+
+## Description
+This lab explores unsupervised learning by building autoencoders from scratch in PyTorch to compress and reconstruct image data without labels. It covers the design of the encoder-decoder architecture and the critical function of the bottleneck in forcing the network to discover meaningful latent representations. The lab measures the utility of these extracted latent codes by applying them to downstream supervised classification tasks using Logistic Regression. Finally, it implements a Denoising Autoencoder, demonstrating how deliberately corrupting inputs during training improves model robustness and feature extraction.
